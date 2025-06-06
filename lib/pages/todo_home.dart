@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'todo_provider.dart';
@@ -38,12 +39,12 @@ class _TodoHomePageState extends State<TodoHomePage> {
         // type: BottomNavigationBarType.shifting,
         items: [
           BottomNavigationBarItem(
-            icon: Icon(Icons.account_box_outlined),
+            icon: Icon(CupertinoIcons.list_bullet),
             label: "All",
             backgroundColor: Colors.green,
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.account_box_outlined),
+            icon: Icon(CupertinoIcons.check_mark),
             label: "Completed",
             backgroundColor: Colors.black,
           ),
