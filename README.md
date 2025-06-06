@@ -1,16 +1,31 @@
-# task_manager
+# Internship Enterance Challenge fro kuraztech
 
-A new Flutter project.
+Hello am Leta Dejene 3rd year software engeneering student at ASTU  
 
-## Getting Started
+this is a Simple Task Manager App  
 
-This project is a starting point for a Flutter application.
+I created this project as an internship program competition task  
 
-A few resources to get you started if this is your first Flutter project:
+# Tools and frameWorks  
+I used Flutter as a framework  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+provider for state management  
+sharedPreferances for storing simple tasks  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# App features  
+
+  Add task  
+  
+  Delete task  
+  
+  Complete task  
+  
+  Show completed task on separate page  
+  
+  Calculate percentage of completed from total  
+  
+  Automaticaly update when task deleted (provider helps me handle this)  
+  
+  Don't allow repeated tasks (it shows the app already exists on the UI)  
+  
+  A login page (this page is just for demo it allows any one to enter with any password)
